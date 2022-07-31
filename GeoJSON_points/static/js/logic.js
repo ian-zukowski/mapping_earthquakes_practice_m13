@@ -33,7 +33,7 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Import majorAirports json data
-let airportData = "https://raw.githubusercontent.com/ian-zukowski/mapping_earthquakes_practice_m13/main/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/ian-zukowski/mapping_earthquakes_practice_m13/main/toronto_data/majorAirports.json";
 
 d3.json(airportData).then(function(data) {
     console.log(data);

@@ -33,8 +33,8 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Import majorAirports and toronto json data
-let airportData = "https://raw.githubusercontent.com/ian-zukowski/mapping_earthquakes_practice_m13/main/torontoRoutes.json";
-let torontoData = "https://raw.githubusercontent.com/ian-zukowski/mapping_earthquakes_practice_m13/main/torontoRoutes.json"
+let airportData = "https://raw.githubusercontent.com/ian-zukowski/mapping_earthquakes_practice_m13/main/toronto_data/torontoRoutes.json";
+let torontoData = "https://raw.githubusercontent.com/ian-zukowski/mapping_earthquakes_practice_m13/main/toronto_data/torontoRoutes.json"
 
 // Create map formatting option dictionary
 let myStyle = {
